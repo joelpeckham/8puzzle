@@ -7,7 +7,6 @@ For Richard Halterman's CPTR-418-Artificial Intelligence
 """
 
 import queue as Q
-from sys import displayhook
 
 def getPuzzleChildren(puzzle):
     blankIndex = puzzle.index("-")
