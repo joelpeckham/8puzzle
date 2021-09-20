@@ -1,16 +1,8 @@
 # 8-Puzzle | Joel Peckham | For CPTR-418-A
 
 ## Analysis Output
-This is the output from the largest test I ran.
-To run the test yourself use:
+This is the output from the largest test I ran. The test used 500 randomly generated puzzles. Each algorithm was tested 3 times per puzzle and their times were averaged.
 
-`python analyzeSearches.py -n 500 -t 3`
-
-To view my results run:
-
-`python analyzeSearches.py -f 'testDataFiles/largeTest.json'`
-
-Output of my reslults file:
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 │        Solver analysis from 500 puzzles with 3 identical trials per algorithm sorted by speedup.        │
@@ -33,6 +25,14 @@ Output of my reslults file:
 │ Fastest Optimal Search                          │ A* Search with Manhattan Distance         │
 └─────────────────────────────────────────────────┴───────────────────────────────────────────┘
 ```
+
+To run the test yourself use:
+
+`python analyzeSearches.py -n 500 -t 3`
+
+To view my results run:
+
+`python analyzeSearches.py -f 'testDataFiles/largeTest.json'`
 ## AnalyzeSearches usage
 
 ```
