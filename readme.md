@@ -1,5 +1,8 @@
 # 8-Puzzle | Joel Peckham | For CPTR-418-A
 
+## View Project on Github
+[github.com/joelpeckham/8puzzle](https://github.com/joelpeckham/8puzzle)
+
 ## Analysis Output
 This is the output from the largest test I ran. The test used 500 randomly generated puzzles. Each algorithm was tested 3 times per puzzle and their times were averaged.
 
